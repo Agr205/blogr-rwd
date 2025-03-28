@@ -1,0 +1,9 @@
+html{
+    font-size: 62.7%;  
+    /* 16px*0625=10px conversion en base de 10 */
+}
+
+body{
+    background-color: pink;
+    font-size: 1.4rem;
+}
