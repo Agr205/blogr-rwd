@@ -1,13 +1,30 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 html{
     font-size: 62.7%;  
     /* 16px*0625=10px conversion en base de 10 */
 }
 
+
 body{
     background-color: pink;
     font-size: 1.4rem;
 }
-
+.main-container{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex-grow: 1;
+    max-height: 100vh;
+    height: 100vh;
+}
 
 .container{
     border: 2px dotted blue;
