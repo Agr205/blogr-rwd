@@ -4,15 +4,24 @@ html,body{
     padding: 0;
 }
 
+:root {
+    /** Colors*/
+    --SunsetOrange:#ff575e;
+    --white: white;
+    --Jacarta:#3a3d5c;
+    --DarkGunmetal:#24242c;
+    /** Fonts */
+    --overal-fontsize:62.5%;
+}
 
 html{
-    font-size: 62.7%;  
+    font-size: var(--overal-fontsize);
     /* 16px*0625=10px conversion en base de 10 */
 }
 
 
 body{
-    background-color: pink;
+
     font-size: 1.4rem;
 }
 .main-container{
@@ -20,10 +29,21 @@ body{
     display: flex;
     flex-direction: column;
 }
+/** Header*/
+.header{
+    background-color:var(--SunsetOrange) ;
+}
+
+/** Main*/
 .main{
     flex-grow: 1;
     max-height: 100vh;
     height: 100vh;
+}
+
+/** FOOTER*/
+.footer{
+    background-color: var(--DarkGunmetal);
 }
 
 .container{
