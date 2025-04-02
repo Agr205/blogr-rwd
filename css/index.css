@@ -107,6 +107,25 @@ body{
     max-height: 100vh;
     height: 100vh;
 }
+/** main:seccion call to action*/
+.section-call-to-action {
+    background: #ff575e;
+    display: flex;
+    height: 44rem;
+    border-radius: 0 0 0 12rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 4rem 0;
+}
 
 /** FOOTER*/
 .footer{
