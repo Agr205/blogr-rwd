@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="main-container">
-    <header class="header">
+        <header class="header">
         <div class="container" >
             <nav class="navbar">
                 <div class="navbar__left">
@@ -37,9 +37,9 @@
             </nav>
 
         </div>
-    </header>
-    <main class="main"> 
-        <section class="section-call-to-action section">
+        </header>
+        <main class="main"> 
+            <section class="section-call-to-action section">
             <div class="container">
                 <div class="call-to-action">
                     <h1>A modern publishing platform</h1>
@@ -50,19 +50,32 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section-designed-for-the-future section"></section>
-        <div class="content-design-for-the-future">
+            </section>
+            <section class="section-designed-for-the-future section">
+            <div class="container">
             <h2>Designed for the future</h2>
-            <div class="section1">
-                <h3>introducing an extensible editor </h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quisquam nisi ducimus excepturi praesentium, deleniti quibusdam     architecto quia vel. Pariatur ipsum facere doloribus repudiandae earum.</p>
-                <h3>Robust content management</h3>
-            </div>
-            <div class="section2">
-                <img src="/img/illustration-editor-desktop.svg" alt="IMG">
-            </div>
-        </div>
+        <div class="content-design-for-the-future">
+                    <div class="section1">
+                                <!-- forma de colocar imagenes autoajustables de diferentes fuentes (varias imagenes) -->
+                                <picture>
+                                <source media="(max-width: 567px )" srcset="/img/illustration-editor-mobile.png">
+                                <source media="(min-width: 768px )" srcset="/img/illustration-editor-desktop.svg">
+
+                                <img class="img img-designed-for-the-future" src="./img/illustration-editor-mobile.png" alt="image: illustration Editor Desktop">
+                            </picture>
+                            <!-- forma convenvional de agregar imagenes  -->
+                            <!-- <img class="img img-designed-for-the-future" src="/img/illustration-editor-mobile.svg" alt="IMG"> -->
+                
+                        </div>
+                        <div class="section2">
+                            <h3>introducing an extensible editor </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, rerum qui. Sed veniam optio consequuntur rerum ipsam voluptas quam inventore blanditiis nisi ad deleniti beatae, a in, culpa doloremque saepe!</p>
+                            <h3>Robust content management</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, alias unde. Magni, ipsa fugiat maxime itaque cumque soluta nam quam?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
     <footer class="footer">
         <div class="container" >
