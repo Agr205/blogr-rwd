@@ -176,6 +176,7 @@ body{
     box-sizing: border-box;
     padding: 0;
 }
+/** main: section art*/
 
 /** media queries*/
 
@@ -216,6 +217,42 @@ body{
     .section-1,
     .section-2 {
         flex: 1;
+    }
+
+    .section-Art-1 h2 {
+        font-weight: normal;
+    }
+    .section-Art-1 {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30rem;
+            color: white;
+            background: var(--Jacarta);
+            padding: 7px 0;
+            text-align: left;
+            border-radius: 0 3.5rem;
+    }
+    .section-art-text {
+        text-align: left;
+        font-size: 1.7rem;
+        font-weight: 300;
+        line-height: 3rem;
+        position: relative;
+        top: -2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .section-Art-1 img {
+        border-style: none;
+        position: relative;
+        top: 0rem;
+    }
+
+    section.section-state-of-the.art {
+        height: 56rem;
     }
 
 }
