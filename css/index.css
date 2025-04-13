@@ -154,8 +154,8 @@ body{
 
 .content-design-for-the-future p {
     text-align: left;
-    line-height: 1.8rem;
-    font-size: 1.2rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
 }
 /** FOOTER*/
 .footer{
@@ -176,7 +176,35 @@ body{
     box-sizing: border-box;
     padding: 0;
 }
-/** main: section art*/
+/** main: section laptop free*/
+.laptop-free {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    right: -7rem;
+}
+
+.texto-tercer-segmento {
+    position: relative;
+    bottom: -23rem;
+    right: 24rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+.simple-text {
+    text-align: left;
+}
+
+.poweful-text {
+    text-align: left;
+}
+img.image-laptop-third {
+    position: relative;
+    bottom: 3rem;
+    right: 44rem;
+}
+
 
 /** media queries*/
 
