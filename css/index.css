@@ -157,10 +157,6 @@ body{
     line-height: 2rem;
     font-size: 1.4rem;
 }
-/** FOOTER*/
-.footer{
-    background-color: var(--DarkGunmetal);
-}
 
 .container{
 
@@ -181,12 +177,12 @@ body{
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    right: -7rem;
+    right: 0rem;
 }
 
 .texto-tercer-segmento {
     position: relative;
-    bottom: -23rem;
+    bottom: -22rem;
     right: 24rem;
     line-height: 2rem;
     font-size: 1.4rem;
@@ -204,8 +200,42 @@ img.image-laptop-third {
     bottom: 3rem;
     right: 44rem;
 }
+/** FOOTER*/
+.footer{
+    background-color: var(--DarkGunmetal);
+    border-radius: 0 8rem 0 0 ;
+}
 
+.Blogr-footer {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
 
+.product-title {
+    text-align: left;
+    line-height: 3rem;
+}
+.company-title {
+    text-align: left;
+    line-height: 3rem;
+}
+.connect-title {
+    text-align: left;
+    line-height: 3rem;
+}
+
+.Product-list {
+    list-style: none;
+}
+
+.Company-list {
+    list-style: none;
+}
+
+.Connect-list {
+    list-style: none;
+}
 /** media queries*/
 
 @media ( min-width: 567px) {
@@ -260,6 +290,9 @@ img.image-laptop-third {
             padding: 7px 0;
             text-align: left;
             border-radius: 0 3.5rem;
+            position: relative;
+            bottom: -6rem;
+
     }
     .section-art-text {
         text-align: left;
